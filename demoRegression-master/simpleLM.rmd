@@ -108,3 +108,13 @@ lmchest = lm(LENGTH ~ CHEST, data = mbears)
 summary(lmchest)
 ```
 
+
+```{r}
+lmHeadWth = lm(LENGTH ~ HEADWTH, data = mbears)
+summary(lmHeadWth)
+```
+
+```{r}
+lmAge = lm(LENGTH ~ AGE, data = mbears)
+summary(lmAge)
+```
