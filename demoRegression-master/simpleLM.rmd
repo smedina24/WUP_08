@@ -91,3 +91,15 @@ mbears <- filter(bears, SEX == 1)
 lmNeck = lm(LENGTH ~ NECK, data = mbears)
 summary(lmNeck)
 ```
+
+
+```{r}
+lmWeight = lm(LENGTH ~ WEIGHT, data = mbears)
+summary(lmWeight)
+```
+
+```{r}
+lmHeadLen = lm(LENGTH ~ HEADLEN, data = mbears)
+summary(lmHeadLen)
+```
+
