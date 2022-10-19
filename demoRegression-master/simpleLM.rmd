@@ -6,7 +6,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE)  
+require(tidyverse)
 ```
 
 ## make a simple regression model
@@ -81,3 +82,12 @@ The best predictions are
 4. length and weight   
 5. length and head width  
 6. length and age.  
+
+```{r}
+mbears <- filter(bears, SEX == 1)
+```
+
+```{r}
+lmNeck = lm(LENGTH ~ NECK, data = mbears)
+summary(lmNeck)
+```
