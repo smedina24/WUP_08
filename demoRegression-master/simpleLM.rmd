@@ -43,6 +43,9 @@ predict(simp,new)
 predict(simp,new,se.fit=TRUE)
 ```
 
+The prediction is that bear 1 length will be 52. Bear 2 length will be 61 and bear 3 will be 68 in length.
+
+
 ## Surely there is another variable that can better predict LENGTH than NECK. Find one and compare its performance to that of neck by it value of Adjusted-Rsquared (bigger is better).
 
 ```{r}
