@@ -21,7 +21,8 @@ bears$MONTH<- as.factor(bears$MONTH)
 ```{r}
 plot(WEIGHT~SEX,data=bears)
 ```
-## Model LENGTH ~ NECK  this is an example  
+The males are represented in box 1 and the females are represented in box 2
+## Model LENGTH ~ NECK  this is an example
 
 ```{r}
 simp <- lm(LENGTH~NECK,data=bears)
