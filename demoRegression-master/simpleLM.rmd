@@ -103,3 +103,8 @@ lmHeadLen = lm(LENGTH ~ HEADLEN, data = mbears)
 summary(lmHeadLen)
 ```
 
+```{r}
+lmchest = lm(LENGTH ~ CHEST, data = mbears)
+summary(lmchest)
+```
+
