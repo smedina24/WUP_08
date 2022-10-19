@@ -122,5 +122,6 @@ summary(lmAge)
 1. Length and Neck  
 2. Length and Head length  
 3. Length and Chest  
-4. Length and Weight  
-5. Length and Age  
+4. Length and Weight
+5. Length and Head width  
+6. Length and Age    
